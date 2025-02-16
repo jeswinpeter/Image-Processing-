@@ -1,4 +1,6 @@
-﻿# --- Image Processing ---
+﻿# `--- Image Processing ---`
+
+![Funny](https://github.com/jeswinpeter/HTML-CSS/blob/main/IMAGES/Funny%20meme%20image.jpeg)
 
 ### I am Trying to learn Image Processing using opencv
 
