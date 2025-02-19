@@ -8,6 +8,7 @@ def resize(frame, scale = 0.5):
     dimensions = (width,height)
 
     return cv.resize(frame, dimensions, interpolation = cv.INTER_AREA)
+
     
 
 # ---- Image Reading ---- #
@@ -25,6 +26,7 @@ capture = cv.VideoCapture('A:/Download/Manichithra thazhu thilakan dialogues.mp4
 while True:
     isTrue, frame = capture.read()
 
+    # ---- Rescaling ----
     new_frame = resize(frame)
     cv.imshow('Video', frame)
     cv.imshow('New Frame', new_frame)
